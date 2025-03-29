@@ -1,7 +1,8 @@
 import React, { useState } from "react";
 
 const originalQuizData = [
-  {
+  // ... your full question array remains unchanged
+   {
     question: "If agent Sue completes an application for an insurance policy on behalf of Phil, and the company agrees to insure him, which party made the offer?",
     options: ["Sue, when she made the initial appointment", "Phil, when he completed the application", "The company, when it issued the policy", "Phil, when he received the policy"],
     correct: "The company, when it issued the policy"
@@ -157,6 +158,14 @@ const originalQuizData = [
     correct: "Laid off"
   }
 ];
+
+const quizData = originalQuizData.map(q => {
+  return {
+    question: q.question,
+    options: q.options,
+    correct: q.correct || q.answer // fallback if "correct" is missing
+  };
+}).sort(() => Math.random() - 0.5);
 
 export default function QuizApp() {
   const [authenticated, setAuthenticated] = useState(false);
