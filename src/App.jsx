@@ -3992,7 +3992,7 @@ export default function QuizApp() {
   };
 
   const handlePasswordSubmit = () => {
-    if (password === "insur101") {
+    if (password === "Goodluck") {
       setAuthenticated(true);
     } else {
       alert("Incorrect password. Please try again.");
