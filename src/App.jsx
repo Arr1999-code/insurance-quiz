@@ -3934,7 +3934,6 @@ const originalQuizData = [
 
   // (Other questions remain unchanged...)
 ];
-
 const quizData = originalQuizData.map(q => {
   return {
     question: q.question,
@@ -4056,7 +4055,8 @@ export default function QuizApp() {
                 {selectedAnswer !== null && selectedAnswer === option && selectedAnswer !== quizData[currentQuestion].correct && (
                   <span className="text-red-500 mr-2">❌</span>
                 )}
-                <span className="font-semibold mr-2">{optionLabels[i]}.</span> {option}
+                <span className="font-semibold mr-2">{optionLabels[i]}.</span>{" "}
+                {option.replace(/^[A-Da-d]\.\s*/, '')}
               </button>
             ))}
           </div>
