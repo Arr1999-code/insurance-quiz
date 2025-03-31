@@ -1072,7 +1072,7 @@ const originalQuizData = [
     "C. covers both on and off the job injuries",
     "D. does not take into account the risks associated with the insured's job"
   ],
-  answer: "B. is mainly for those in hazardous occupations.”
+  answer: "B. is mainly for those in hazardous occupations."
 },
 {
   question: "If a consumer requests more information about an insurance producer's compensation for a proposed insurance policy, the producer MUST disclose which of the following?",
