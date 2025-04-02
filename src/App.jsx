@@ -209,7 +209,7 @@ const originalQuizData = [
   answer: "A. A waiver"
 },
 {
-  question: "The following statement refers to which type of clause? “We have issued the policy in consideration of the representation in your applications and payment of the first-term premium.”",
+  question: "The following statement refers to which type of clause? We have issued the policy in consideration of the representation in your applications and payment of the first-term premium.",
   options: [
     "A. A contestability clause",
     "B. A consideration clause",
@@ -1045,7 +1045,7 @@ const originalQuizData = [
   answer: "A. Accumulation at interest Option"
 },
 {
-  question: "Which one of the following BEST describes "consideration" for a health insurance policy?",
+  question: "Which one of the following BEST describes Consideration for a health insurance policy?",
   options: [
     "A. The premium only",
     "B. The statements made in the application only",
@@ -3039,6 +3039,8 @@ const originalQuizData = [
   ],
   answer: "D. Not at work"
 },
+
+
 
 
 
