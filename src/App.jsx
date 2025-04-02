@@ -2,7 +2,7 @@ import React, { useState } from "react";
 
 const originalQuizData = [
   // ... your full question array remains unchanged
-  {
+ {
   question: "A policyowner suffers an injury that renders him incapable of performing one or more important job duties. Any decrease in income resulting from this injury would make him eligible for benefits under which provision?",
   options: [
     "A. Partial disability",
@@ -115,26 +115,6 @@ const originalQuizData = [
   answer: "D. Employer"
 },
 {
-  question: "A 65-year-old employee who works for an employer with 24 employees is disabled on the job. The employee has fully recovered and returned to work. Which health insurance coverage is primary?",
-  options: [
-    "A. Medicaid",
-    "B. An individual's plan",
-    "C. Workers’ compensation",
-    "D. His employer’s group plan"
-  ],
-  answer: "C. Workers’ compensation"
-},
-{
-  question: "Under Workers Compensation, injured employees are covered for all the following losses EXCEPT",
-  options: [
-    "A. Loss of wages",
-    "B. Pain and suffering",
-    "C. Medical expenses",
-    "D. Occupational illness"
-  ],
-  answer: "B. Pain and suffering"
-},
-{
   question: "Group long-term disability benefit amounts are usually limited to what percentage of the participant's income?",
   options: [
     "A. 40",
@@ -208,16 +188,6 @@ const originalQuizData = [
 
 
 
- {
-  question: "Sam gets a new job with a small employer and enrolls in a health benefit plan that includes dependent coverage. Sam’s 6-year-old daughter has Type-1 Diabetes and is on an insulin pump. When will claims related to her pre-existing condition be covered?",
-  options: [
-    "A. Immediately",
-    "B. After a waiting period of 90 days",
-    "C. After a waiting period of 12 months",
-    "D. After proving she has been complication-free for 6 months"
-  ],
-  answer: "A. Immediately"
-},
 {
   question: "An individual accident and health insurance policy must include",
   options: [
@@ -337,16 +307,6 @@ const originalQuizData = [
     "D. Employee dependents will not be covered."
   ],
   answer: "B. An employer pays the premium and all employees are covered."
-},
-{
-  question: "Penalties that may be levied by the Department of Insurance for committing insurance fraud do NOT include",
-  options: [
-    "A. Fines.",
-    "B. License revocation.",
-    "C. License suspension.",
-    "D. Probation."
-  ],
-  answer: "B. License revocation"
 },
 {
   question: "According to the Affordable Care Act, a child can remain on a parent’s health benefit plan until the child",
@@ -469,26 +429,6 @@ const originalQuizData = [
     "D. Critical illness"
   ],
   answer: "A. Accidental death and dismemberment"
-},
-{
-  question: "In a health insurance policy, an insured has an out-of-pocket limit of $10,000, a deductible of $500, and an 80%/20% coinsurance. The insured incurs $50,000 of covered losses in an accident. How much will the insurer have to pay?",
-  options: [
-    "A. $35,500",
-    "B. $39,600",
-    "C. $40,000",
-    "D. $49,500"
-  ],
-  answer: "C. $40,000"
-},
-{
-  question: "The PRIMARY difference between a noncancellable policy and a guaranteed renewable policy is that only with a noncancellable policy can the insurer",
-  options: [
-    "A. Retain the right to refuse to renew the policy at a certain age",
-    "B. Cancel for excessive claims",
-    "C. Allow renewal of policy for 5 years if the insured is over age 54",
-    "D. Never raise premiums."
-  ],
-  answer: "D. Never raise premiums."
 },
 {
   question: "Under the New York Disability Benefits Law, employees eligible for benefits include which of the following?",
@@ -621,16 +561,6 @@ const originalQuizData = [
     "D. A life insurer."
   ],
   answer: "B. An insurance producer."
-},
-{
-  question: "Under the grace period, an insured submits a $300 claim for medical expenses. The insurer notes that the insured has a past due premium of $100, and as a result, the insurer only pays $200. Which of the following provisions covers this situation.",
-  options: [
-    "A. Unpaid premium",
-    "B. Payment actions.",
-    "C. Payment of claims.",
-    "D. Misstatement of age."
-  ],
-  answer: "A. Unpaid premium"
 },
 {
   question: "Which of the following contracts enables the business owner who becomes disabled to transfer the business to a new owner and receive payment?",
@@ -905,16 +835,6 @@ const originalQuizData = [
   answer: "D. 26"
 },
 {
-  question: "The illegal occupation provision ensures that the insurer is NOT liable for losses incurred while the policy owner was",
-  options: [
-    "A. Under the influence of prescription drugs.",
-    "B. Attempting to commit a felony",
-    "C. Pursuing a criminal",
-    "D. Not at work."
-  ],
-  answer: "D. Not at work."
-},
-{
   question: "Individuals who are eligible for Medicare on the first day of the month in which they turn age 65 are automatically enrolled in",
   options: [
     "A. Part A",
@@ -1065,16 +985,6 @@ const originalQuizData = [
   answer: "A. Having to satisfy a new preexisting condition period."
 },
 {
-  question: "The MAIN difference between occupational coverage and nonoccupational coverage is that occupational coverage",
-  options: [
-    "A. does not provide full coverage",
-    "B. is mainly for those in hazardous occupations",
-    "C. covers both on and off the job injuries",
-    "D. does not take into account the risks associated with the insured's job"
-  ],
-  answer: "B. is mainly for those in hazardous occupations."
-},
-{
   question: "If a consumer requests more information about an insurance producer's compensation for a proposed insurance policy, the producer MUST disclose which of the following?",
   options: [
     "A. The producer's role in the sale of the insurance contract",
@@ -1083,16 +993,6 @@ const originalQuizData = [
     "D. Whether the producer will receive compensation from a third party for selling the insurance contract."
   ],
   answer: "B. The amount of compensation the producer will receive for selling the insurance contract."
-},
-{
-  question: "When marketing to groups for health insurance, who should be issued a certificate as proof of coverage?",
-  options: [
-    "A. Sponsor",
-    "B. Employee",
-    "C. Employer",
-    "D. HMO"
-  ],
-  answer: "B. Employee"
 },
 {
   question: "An example of an alien insurer would be",
@@ -1135,6 +1035,106 @@ const originalQuizData = [
   answer: "A. Reduced paid-up Insurance"
 },
 {
+  question: "In which of the following dividend options would an insurer invest the policyowners money and add interest earnings to the initial amount of the dividends as",
+  options: [
+    "A. Accumulation at interest Option",
+    "B. Paid-up Additions Option",
+    "C. Cash Dividend Option",
+    "D. Reduced Premium Dividend Option"
+  ],
+  answer: "A. Accumulation at interest Option"
+},
+{
+  question: "Which one of the following BEST describes "consideration" for a health insurance policy?",
+  options: [
+    "A. The premium only",
+    "B. The statements made in the application only",
+    "C. The statements made in the application and the premium",
+    "D. The statements made in the application and the insuring clause"
+  ],
+  answer: "C. The statements made in the application and the premium"
+},
+{
+  question: "All of the following Statements apply to the surrender of an annuity contract EXCEPT",
+  options: [
+    "A. surrender charges will reduce the contract payout amount",
+    "B. the right to surrender is available on immediate annuities",
+    "C. the owner has the right to surrender the contract durIng the accumulation period",
+    "D. surrender charges diminish over a stated number of years and will eventually disappear"
+  ],
+  answer: "B. the right to surrender is available on immediate annuities"
+},
+{
+  question: "Based on the Patient Protection and Affordable Care Act (PPACA), what is the time limit for which a group health plan can deny an employee coverage for a preexisting medical condition?",
+  options: [
+    "A. 0 days",
+    "B. 90 days",
+    "C. 6 months",
+    "D. 12 months"
+  ],
+  answer: "B. 90 days"
+},
+{
+  question: "A life insurance rider which reimburses expenses incurred in a convalescent or nursing home facility is:",
+  options: [
+    "A. Disability",
+    "B. Long-Term Care",
+    "C. Accidental Death",
+    "D. Cost of Living"
+  ],
+  answer: "B. Long-Term Care"
+},
+{
+  question: "Which of the following is a potential DISADVANTAGE of a fixed annuity?",
+  options: [
+    "A. Annuitants could experience a decrease in the purchasing power of their payments over a period of years due to inflation",
+    "B. There is no guaranteed specific benefit amount to the annuitant",
+    "C. The insured invests payments in variable securities, and the return fluctuates with an uncertain economic market",
+    "D. Payments continue only for a maximum of 2 years after the annuitant's death"
+  ],
+  answer: "A. Annuitants could experience a decrease in the purchasing power of their payments over a period of years due to inflation"
+},
+{
+  question: "Upon receipt of notice of claim, the insurance company will furnish to the claimant such forms for loss within how many days?",
+  options: [
+    "A. 10",
+    "B. 15",
+    "C. 20",
+    "D. 30"
+  ],
+  answer: "B. 15"
+},
+{
+  question: "Which of the following benefits will be paid to the business under a business overhead expense policy after the elimination period?",
+  options: [
+    "A. The amount needed to pay the mortgage for the business property",
+    "B. The actual overhead expenses incurred during the owner’s disability",
+    "C. An amount equal to the overhead expenses incurred in the month prior to the owner’s disability",
+    "D. The minimum dollar value needed to keep the business running"
+  ],
+  answer: "B. The actual overhead expenses incurred during the owner’s disability"
+},
+{
+  question: "A common disaster clause states that if the beneficiary dies from the same accident as the insured individual, the insurer will proceed as if the",
+  options: [
+    "A. insured individual outlived the beneficiary",
+    "B. beneficiary outlived the insured individual",
+    "C. beneficiary was never named on the policy",
+    "D. beneficiary and the insured individual died simultaneously"
+  ],
+  answer: "A. insured individual outlived the beneficiary"
+},
+{
+  question: "Which type of insurance policy is characterized by premiums that are fully paid up within a stated period, after which no further premiums are REQUIRED?",
+  options: [
+    "A. Lump sum insurance",
+    "B. Basic installment insurance",
+    "C. Prepaid premium insurance",
+    "D. Limited payment life insurance"
+  ],
+  answer: "D. Limited payment life insurance"
+},
+{
   question: "Which of the following is a health insuring corporation (HIC) provider of specialty care?",
   options: [
     "A. A neurologist",
@@ -1142,7 +1142,7 @@ const originalQuizData = [
     "C. An HIC medical director",
     "D. A preferred provider organization (PPO) director"
   ],
-  answer: "C. An HIC medical director"
+  answer: "A. A neurologist"
 },
 {
   question: "Which of the following dividend options will increase the death benefit?",
@@ -1175,56 +1175,6 @@ const originalQuizData = [
   answer: "B. an indexed annuity"
 },
 {
-  question: "Which of the following services must be provided by a health benefit plan issued on or after January 1, 2014?",
-  options: [
-    "A. Adult eye care services.",
-    "B. Long-term care services.",
-    "C. Adult dental services.",
-    "D. Preventive health service"
-  ],
-  answer: "D. Preventive health service"
-},
-{
-  question: "For a contract to be valid, it MUST be for a legal purpose and",
-  options: [
-    "A. Involve consideration.",
-    "B. be offered.",
-    "C. involve warranties.",
-    "D. be written."
-  ],
-  answer: "A. Involve consideration."
-},
-{
-  question: "Under Workers' Compensation, injured employees are covered for all of the following losses EXCEPT",
-  options: [
-    "A. loss of wages.",
-    "B. pain and suffering.",
-    "C. medical expenses.",
-    "D. occupational illness."
-  ],
-  answer: "B. pain and suffering."
-},
-{
-  question: "Which of the following is described when a selected group of practitioners, in a certain area, agrees to provide services at a pre-arranged cost on a fee-for-service basis?",
-  options: [
-    "A. preferred provider organization",
-    "B. indemnity organization",
-    "C. risk purchasing group",
-    "D. coalition group"
-  ],
-  answer: "A. preferred provider organization"
-},
-{
-  question: "In a health insurance policy, an insured has an out-of-pocket limit of $10,000, a deductible of $500, and an 80%/20% coinsurance. The insured incurs $50,000 of covered losses in an accident. How much will the insurer have to pay?",
-  options: [
-    "A. 35500",
-    "B. 39600",
-    "C. 40000",
-    "D. 49500"
-  ],
-  answer: "B. 39600"
-},
-{
   question: "An applicant for a Medicare supplement policy must sign a receipt acknowledging delivery of a Buyer’s Guide when the",
   options: [
     "A. policy is delivered.",
@@ -1232,7 +1182,7 @@ const originalQuizData = [
     "C. agent takes the application.",
     "D. policy is a direct response solicitation."
   ],
-  answer: "D. policy is a direct response solicitation."
+  answer: "C. agent takes the application."
 },
 {
   question: "All forms of insurance determine exposure through",
@@ -1245,16 +1195,6 @@ const originalQuizData = [
   answer: "C. risk pooling and the law of large numbers"
 },
 {
-  question: "According to the Affordable Care Act, an insurer may rescind coverage under a health benefit plan when",
-  options: [
-    "A. the insured attempts to add more than 3 additional dependents",
-    "B. the insured makes an intentional misrepresentation of a material fact",
-    "C. an insurer adds benefits to a plan offered on another tier at a comparable price",
-    "D. more than 30% of individuals covered under the plan qualify for additional tax credits."
-  ],
-  answer: "B. the insured makes an intentional misrepresentation of a material fact"
-},
-{
   question: "All the following policies qualify for a 1035 Exchange EXCEPT",
   options: [
     "A. a whole life policy to another whole life policy.",
@@ -1264,7 +1204,6 @@ const originalQuizData = [
   ],
   answer: "D. an annuity to a whole life policy"
 },
-
 {
   question: "Which rider allows the policyowner to increase the face amount to adjust for inflation?",
   options: [
@@ -1286,26 +1225,6 @@ const originalQuizData = [
   answer: "B. A juvenile life policy"
 },
 {
-  question: "Dependent children can be covered under an individual's group plan up to what age?",
-  options: [
-    "A. 18",
-    "B. 19",
-    "C. 25",
-    "D. 26"
-  ],
-  answer: "D. 26"
-},
-{
-  question: "Which of the following is a common exclusion to a vision rider on a policy?",
-  options: [
-    "A. Eye examination.",
-    "B. Cost of lenses and frames.",
-    "C. Cost of contact lenses.",
-    "D. Laser eye surgery."
-  ],
-  answer: "D. Laser eye surgery."
-},
-{
   question: "If a person advertises the availability of life settlements they MUST be licensed as a",
   options: [
     "A. special purpose entity",
@@ -1323,7 +1242,7 @@ const originalQuizData = [
     "C. effective interest rate for policy loans.",
     "D. 10th and 20th year cost surrender value."
   ],
-  answer: "D. 10th and 20th year cost surrender value."
+  answer: "B. names of the beneficiary"
 },
 {
   question: "What is a Life Settlement Contract?",
@@ -1336,26 +1255,6 @@ const originalQuizData = [
   answer: "D. An agreement to pay a policyowner less than the expected death benefit."
 },
 {
-  question: "The purpose of Medicare Supplement insurance is to address gaps in Medicare coverage, which can include",
-  options: [
-    "A. Medicare in-hospital deductible",
-    "B. replacing HMO coverage.",
-    "C. covering chiropractic treatment",
-    "D. treatment provided in a government hospital."
-  ],
-  answer: "A. Medicare in-hospital deductible"
-},
-{
-  question: "If the premium is not paid at the time of application, a Statement of Good Health MUST be signed by the policyowner at the time of",
-  options: [
-    "A. the medical examination",
-    "B. underwriter review.",
-    "C. policy delivery",
-    "D. application."
-  ],
-  answer: "D. application."
-},
-{
   question: "Under the Affordable Care Act, insurer may refuse to accept an internal appeal on a denied claim if",
   options: [
     "A. the claim is under $500.",
@@ -1364,16 +1263,6 @@ const originalQuizData = [
     "D. The insured has submitted three appeals within the calendar year."
   ],
   answer: "C. the appeal is filed more than 180 days after the claim denial."
-},
-{
-  question: "An individual accident and health insurance policy must include",
-  options: [
-    "A. An automatic reinstatement provision",
-    "B. AIO-day right of rescission provision",
-    "C. Only the optional uniform provisions",
-    "D. A 60-day grace period"
-  ],
-  answer: "D. A 60-day grace period"
 },
 {
   question: "When underwriting group life insurance, the underwriter",
@@ -1436,16 +1325,6 @@ const originalQuizData = [
   answer: "D. human value approach."
 },
 {
-  question: "Which of the following is an example of a presumptive disability?",
-  options: [
-    "A. Loss of a hand.",
-    "B. Loss of one foot.",
-    "C. Loss of sight.",
-    "D. Loss of three toes on one foot."
-  ],
-  answer: "C. Loss of sight."
-},
-{
   question: "Under the New York Disability Benefits Law, benefits are usually computed as how much of an individual's average weekly wages in the preceding 8-week period?",
   options: [
     "A. 0.25",
@@ -1456,18 +1335,6 @@ const originalQuizData = [
   answer: "B. 0.5"
 },
 {
-  question: "Long-term care policies MUST cover which of the following conditions?",
-  options: [
-    "A. Alcoholism or drug addiction.",
-    "B. Acts of war while serving in the military.",
-    "C. Self-inflicted injuries.",
-    "D. Alzheimer’s disease."
-  ],
-  answer: "D. Alzheimer’s disease."
-},
-
-
-{
   question: "The PRIMARY reason for purchasing life insurance is to provide",
   options: [
     "A. Death benefits",
@@ -1475,7 +1342,7 @@ const originalQuizData = [
     "C. Retirement income",
     "D. Safety of principal"
   ],
-  answer: "B. College tuition"
+  answer: "A. Death benefits"
 },
 {
   question: "A Medicare Supplement policy must NOT contain benefits which",
@@ -1496,16 +1363,6 @@ const originalQuizData = [
     "D. It must be written and communicated to all participants."
   ],
   answer: "A. It must be permanent"
-},
-{
-  question: "Some health plans pay benefits on a 'usual, customary, and reasonable' (UCR) basis while other plans may pay established amounts in accordance with a list of injuries, surgical procedures, or other losses. What is this list known as?",
-  options: [
-    "A. Loss menu.",
-    "B. Coverage chart.",
-    "C. Benefit schedule.",
-    "D. Listing of benefit amounts."
-  ],
-  answer: "D. Listing of benefit amounts."
 },
 {
   question: "Which of the following describes the cause of a loss?",
@@ -1568,26 +1425,6 @@ const originalQuizData = [
   answer: "D. limited health insurance policies."
 },
 {
-  question: "A 65 Year-old employee who works for an employer with 24 employees is disabled on the job. The employee has fully recovered and returned to work. Which health coverage is primary?",
-  options: [
-    "A. Medicaid",
-    "B. an individual plan",
-    "C. workers' compensation",
-    "D. his employer’s group plan"
-  ],
-  answer: "C. workers' compensation"
-},
-{
-  question: "The PRIMARY difference between a noncancellable policy and guaranteed renewable policy is that only with a noncancelable policy can the insurer",
-  options: [
-    "A. Retain the right to refuse to renew the policy at a certain age",
-    "B. cancel for excessive claims.",
-    "C. allow renewal of policy for 5 years if the insured is over age 54.",
-    "D. never raise premiums."
-  ],
-  answer: "A. Retain the right to refuse to renew the policy at a certain age"
-},
-{
   question: "Sue Ellen is the sister of a licensed New York insurance producer, Frank Gillespie. Frank was recently killed in a car accident and Sue Ellen has been issued a temporary license to run Frank's agency. For what period of time is the initial temporary license valid?",
   options: [
     "A. 3 months.",
@@ -1595,7 +1432,7 @@ const originalQuizData = [
     "C. 1 year.",
     "D. 2 years."
   ],
-  answer: "B. 6 months."
+  answer: "A. 3 months."
 },
 {
   question: "Which of the following is a characteristic of level premium term life insurance",
@@ -1606,46 +1443,6 @@ const originalQuizData = [
     "D. The cost of insurance is averaged throughout the contract."
   ],
   answer: "D. The cost of insurance is averaged throughout the contract."
-},
-{
-  question: "Some states have laws ensuring that health insurance coverages are available at a reasonable cost and under reasonable conditions for small employers. Small employers are defined as having no more than",
-  options: [
-    "A. 200 employees.",
-    "B. 150 employees.",
-    "C. 100 employees.",
-    "D. 75 employees."
-  ],
-  answer: "C. 100 employees."
-},
-{
-  question: "Hospital care under a typical health insuring corporation (HIC) plan includes all of the following EXCEPT:",
-  options: [
-    "A. Private duty nursing",
-    "B. In-hospital laboratory work and X-rays",
-    "C. Inpatient laboratory services",
-    "D. Inpatient mental health care"
-  ],
-  answer: "A. Private duty nursing"
-},
-{
-  question: "In disability income insurance, which of the following is excluded from coverage?",
-  options: [
-    "A. Accidental self-inflicted injuries.",
-    "B. Attempted suicide",
-    "C. Passengers on a commercial flight.",
-    "D. Passengers on a private flight."
-  ],
-  answer: "D. Passengers on a private flight."
-},
-{
-  question: "Under the Affordable Care Act, an insurer may place dollar limits on coverage for",
-  options: [
-    "A. laboratory services.",
-    "B. mental health services.",
-    "C. maternity care and newborn care",
-    "D. Routine adult dental services"
-  ],
-  answer: "D. Routine adult dental services"
 },
 {
   question: "For a group to be acceptable for group health insurance underwriting, it should be",
@@ -1698,16 +1495,6 @@ const originalQuizData = [
   answer: "A. Buy-sell agreement."
 },
 {
-  question: "Donna and Mary were racing in shopping carts pushed by fellow employees. Mary's cart ran into another employee, John, while he was stocking the shelves, which caused injuries to both of them. Who is definitely covered under Workers' Compensation?",
-  options: [
-    "A. John.",
-    "B. Mary.",
-    "C. John and Mary.",
-    "D. Neither."
-  ],
-  answer: "A. John."
-},
-{
   question: "The levels of coverage defined in the Affordable Care Act are",
   options: [
     "A. HMO, EPO, POS, and PPO.",
@@ -1735,7 +1522,7 @@ const originalQuizData = [
     "C. A 10-year-old attending a summer camp in New York who resides in Pennsylvania",
     "D. The 30-year-old parents of a 3-year-old child"
   ],
-  answer: "A. A New York resident under the age of 19"
+  answer: "C. A 10-year-old attending a summer camp in New York who resides in Pennsylvania"
 },
 {
   question: "Which of the following statements BEST describes a single premium cash value policy?",
@@ -1745,7 +1532,7 @@ const originalQuizData = [
     "C. It waives one future premium if the owner becomes disabled.",
     "D. It requires the policyowner to pay one premium annually."
   ],
-  answer: "B. It provides for only one premium to be paid without evidence of insurability."
+  answer: "A. It requires only one payment to make the policy paid up."
 },
 {
   question: "Which kind of retirement plan can a 1,500-employee for-profit corporation establish?",
@@ -1757,39 +1544,6 @@ const originalQuizData = [
   ],
   answer: "A. 401 (k)."
 },
-{
-  question: "Which of the following is a basic benefit of Medicare Supplemental insurance?",
-  options: [
-    "A. First 3 pints of blood each year.",
-    "B. At-home recovery.",
-    "C. Basic drugs limit of $1,250.",
-    "D. Preventive care."
-  ],
-  answer: "D. Preventive care."
-},
-{
-  question: "A Key Person Disability Income Policy pays benefits to the",
-  options: [
-    "A. spouse",
-    "B. dependent",
-    "C. employee",
-    "D. employer"
-  ],
-  answer: "D. employer"
-},
-{
-  question: "A Section 457 Deferred Compensation plan is provided specifically for employees of",
-  options: [
-    "A. sole proprietorships.",
-    "B. religious organizations.",
-    "C. non-profit organizations.",
-    "D. states, counties, or municipalities"
-  ],
-  answer: "D. states, counties, or municipalities"
-},
-
-
-
 {
   question: "A health insurance policy has $1,000 deductible and 80%/20% coinsurance of the next $3,000. The Insured receives a medical bill of $5,000. How much would the insured be responsible to pay?",
   options: [
@@ -1819,16 +1573,6 @@ const originalQuizData = [
     "D. The amount paid will be reduced by the unfunded dividend reserve."
   ],
   answer: "C. The amount paid will be what the premium would have purchased at the correct age."
-},
-{
-  question: "Which of the following benefits is NOT provided under the Healthy New York Program?",
-  options: [
-    "A. Prostate cancer screening",
-    "B. Mammograms",
-    "C. Mental health",
-    "D. Hospitalization"
-  ],
-  answer: "C. Mental health"
 },
 {
   question: "In order to reinstate an individual life insurance policy, the policy owner MUST do all of the following EXCEPT",
@@ -1891,16 +1635,6 @@ const originalQuizData = [
   answer: "C. Inpatient hospital services."
 },
 {
-  question: "Group Disability Income insurance usually involves",
-  options: [
-    "A. higher premiums than individual disability policies.",
-    "B. providing benefits for nonoccupational illnesses and injuries.",
-    "C. A requirement that all employees participate.",
-    "D. workers who are individually uninsurable because of their high-risk occupations."
-  ],
-  answer: "B. providing benefits for nonoccupational illnesses and injuries."
-},
-{
   question: "What is the purpose of the policy review when an agent delivers a new life insurance policy to the insured?",
   options: [
     "A. to confirm that the insured understands all aspects of the policy",
@@ -1909,16 +1643,6 @@ const originalQuizData = [
     "D. to permit the parties to revise the policy provisions, terms, and conditions"
   ],
   answer: "A. to confirm that the insured understands all aspects of the policy"
-},
-{
-  question: "An insured individual purchases a disability policy with a waiver of premium rider on January 1. The individual is disabled on June 1. On July 1, he receives proof of permanent and total disability, and submits a claim. He begins receiving benefits on July 15. When are his premiums waived?",
-  options: [
-    "A. January 1",
-    "B. June 1",
-    "C. July 1",
-    "D. July 15"
-  ],
-  answer: "C. July 1"
 },
 {
   question: "Which of the following guarantees that the annuitant CANNOT outlive their benefits?",
@@ -1941,47 +1665,6 @@ const originalQuizData = [
   answer: "C. 60 days."
 },
 {
-  question: "If Term Life Insurance is renewable, the policyowner is purchasing the right to renew the policy",
-  options: [
-    "A. with proof of insurability.",
-    "B. without an increase in premiums at renewal.",
-    "C. for an unlimited number of times.",
-    "D. without showing proof of insurability"
-  ],
-  answer: "D. without showing proof of insurability"
-},
-{
-  question: "If there is a conflict between a policy provision and state statutes the policy",
-  options: [
-    "A. must be reviewed by the insurance commissioner.",
-    "B. must meet minimum statute requirements.",
-    "C. can be submitted as written.",
-    "D. supersedes state statutes."
-  ],
-  answer: "B. must meet minimum statute requirements."
-},
-{
-  question: "Which of the following is a common exclusion from coverages found in accident and health policies?",
-  options: [
-    "A. emergency room coverages",
-    "B. coordination of benefits",
-    "C. self-inflicted injuries",
-    "D. chiropractic services"
-  ],
-  answer: "C. self-inflicted injuries"
-},
-{
-  question: "When an accident and health policy requires payment of an additional premium to provide coverage for a newborn, how many days after the birth is the first payment due?",
-  options: [
-    "A. 60",
-    "B. 31",
-    "C. 14",
-    "D. 10"
-  ],
-  answer: "B. 31"
-},
-
-  {
     question: "Which of the following is TRUE concerning the conversion group life insurance coverage to an individual policy?",
     options: [
       "A. It applies whenever life insurance coverage terminates.",
@@ -1989,7 +1672,7 @@ const originalQuizData = [
       "C. An insurer cannot require evidence of insurability before issuing a conversion policy.",
       "D. The premiums under the conversion policy will be the same."
     ],
-    answer: "B. The insured receives a paid-up conversion policy upon termination of employment unless he or she informs the insurer otherwise."
+    answer: "C. An insurer cannot require evidence of insurability before issuing a conversion policy."
   },
   {
     question: "Survivorship life insurance policies are useful in estate planning because they",
@@ -2001,27 +1684,7 @@ const originalQuizData = [
     ],
     answer: "B. Can provide money to pay taxes on assets."
   },
-  {
-    question: "Which of the following is NOT an Essential Health Benefit Category under the Affordable Care Act?",
-    options: [
-      "A. Emergency Services.",
-      "B. Laboratory Services.",
-      "C. Alternative Medicine.",
-      "D. Maternity and Newborn Care"
-    ],
-    answer: "C. Alternative Medicine."
-  },
-  {
-    question: "Which of the following allows for a multiple of the face amount to be paid if the insured dies because of an accident?",
-    options: [
-      "A. Accidental death benefit.",
-      "B. Accelerated death benefit.",
-      "C. Term rider.",
-      "D. Cost of living rider."
-    ],
-    answer: "A. Accidental death benefit."
-  },
-  {
+   {
     question: "Who of the following is REQUIRED to be licensed as an insurance producer?",
     options: [
       "A. An underwriter at an insurer.",
@@ -2072,46 +1735,6 @@ const originalQuizData = [
     answer: "B. 2 years"
   },
   {
-    question: "Penalties that may be levied by the Department of insurance for committing insurance fraud do NOT include",
-    options: [
-      "A. Fines.",
-      "B. License revocation.",
-      "C. License suspension.",
-      "D. Probation."
-    ],
-    answer: "D. Probation."
-  },
-  {
-    question: "If an annuitant dies during the accumulation period, his or her beneficiary will receive",
-    options: [
-      "A. The greater of the accumulated cash value or the total premiums paid.",
-      "B. The lesser of the accumulated cash value or the total premiums paid.",
-      "C. No monetary funds.",
-      "D. Both the accumulated cash value and the total premiums paid."
-    ],
-    answer: "D. Both the accumulated cash value and the total premiums paid."
-  },
-  {
-    question: "Which of the following is true about applying for Medicare Supplement policies outside open enrollment?",
-    options: [
-      "A. Coverage will be issued on a guaranteed issue basis.",
-      "B. It is not possible to get coverage after the initial enrollment period.",
-      "C. Coverage will be issued with longer elimination periods and higher deductibles.",
-      "D. There is no guarantee a company will sell you coverage if you do not meet underwriting guidelines."
-    ],
-    answer: "D. There is no guarantee a company will sell you coverage if you do not meet underwriting guidelines."
-  },
-  {
-    question: "The type of care that is continuous 24-hour care provided by licensed medical professionals under the direct supervision of a physician is",
-    options: [
-      "A. Custodial care.",
-      "B. Intermediate nursing care.",
-      "C. Skilled nursing care.",
-      "D. Respite care."
-    ],
-    answer: "C. Skilled nursing care."
-  },
-  {
     question: "A PRIMARY difference between pre-certification provision and concurrent review is that only the pre-certification provision",
     options: [
       "A. Is designed to be a cost containment measure.",
@@ -2139,19 +1762,9 @@ const originalQuizData = [
       "C. a modified application form with a new signature.",
       "D. a signed statement acknowledging an impairment rider."
     ],
-    answer: "D. a signed statement acknowledging an impairment rider."
+    answer: "C. a modified application form with a new signature."
   },
-  {
-    question: "According to Health insurance Portability and Accountability Act (HIPAA), can a group health policy renewal be denied?",
-    options: [
-      "A. There have been too many claims in the previous year.",
-      "B. The size of the group has increased by more than 10%.",
-      "C. Participation or contribution rules have been violated.",
-      "D. Participation or contribution rules have been changed."
-    ],
-    answer: "D. Participation or contribution rules have been changed."
-  },
-  {
+   {
     question: "Which of the following is TRUE about agents' life insurance sales advertisements in New York State?",
     options: [
       "A. It may not call attention to any unauthorized insurers.",
@@ -2181,27 +1794,7 @@ const originalQuizData = [
     ],
     answer: "D. credit life"
   },
-  {
-    question: "According to the Affordable Care Act, essential health benefits do NOT include which of the following categories?",
-    options: [
-      "A. Maternity and newborn care",
-      "B. Routine vision care for adults",
-      "C. Preventive and wellness services",
-      "D. Mental health and substance use disorder"
-    ],
-    answer: "B. Routine vision care for adults"
-  },
-  {
-    question: "Under the grace period, an insured submits a $300 claim for medical expenses. The insurer notes that the insured has a past due premium of $100, and as a result, the insurer only pays $200. Which of the following provisions covers this situation?",
-    options: [
-      "A. Unpaid premium",
-      "B. Payment actions",
-      "C. Payment of claims",
-      "D. Misstatement of age"
-    ],
-    answer: "A. Unpaid premium"
-  },
-  {
+   {
     question: "What is the purpose of the Insurance Frauds Prevention Act?",
     options: [
       "A. Identify the requirement that underwriters need to follow in order to evaluate risk.",
@@ -2221,16 +1814,6 @@ const originalQuizData = [
     ],
     answer: "A. a life annuity certain."
   },
-  {
-    question: "Health insurance contracts covering 2 to 50 employee and providing hospital and/or medical benefits are issued in the state ONLY when the contract",
-    options: [
-      "A. is community rated.",
-      "B. has received a counteroffer.",
-      "C. is unconditional.",
-      "D. is modified through coercion."
-    ],
-    answer: "A. is community rated."
-  },
  {
     question: "What is the PRIMARY purpose of disability insurance?",
     options: [
@@ -2241,27 +1824,7 @@ const originalQuizData = [
     ],
     answer: "C. provide an individual a means to replace wages"
   },
-  {
-    question: "The general enrollment period for Medicare Part B ends on",
-    options: [
-      "A. March 31",
-      "B. May 31",
-      "C. June 30",
-      "D. December 31"
-    ],
-    answer: "D. December 31"
-  },
-  {
-    question: "A trust may NOT be used in connection with a new life insurance policy when the intent is to",
-    options: [
-      "A. name the trust as the policy beneficiary and another party as the policyowner.",
-      "B. conceal that a life settlement provider is financing the purchase of the policy.",
-      "C. prohibit a spouse from directing the policy death benefit to a stepchild.",
-      "D. minimize the estate taxes that will be paid to the government at the insured’s death."
-    ],
-    answer: "C. prohibit a spouse from directing the policy death benefit to a stepchild."
-  },
-  {
+   {
     question: "Term life insurance differs from permanent life insurance in that MOST often, term life insurance",
     options: [
       "A. accumulates a much smaller cash value.",
@@ -2329,7 +1892,7 @@ const originalQuizData = [
       "C. Department of Insurance",
       "D. National Association of Insurance Commissioners (NAIC)"
     ],
-    answer: "D. National Association of Insurance Commissioners (NAIC)"
+    answer: "C. Department of Insurance"
   },
   {
     question: "Disclosure provisions are established for what purpose?",
@@ -2339,7 +1902,7 @@ const originalQuizData = [
       "C. Used for certain changes in benefits and premiums",
       "D. Offer endorsement only after applicant is approved"
     ],
-    answer: "C. Used for certain changes in benefits and premiums"
+    answer: "A. Explain grievance procedure"
   },
   {
     question: "A person covered under a certain life insurance contract who seeks to sell their policy and enter into a life settlement contract is the:",
@@ -2391,17 +1954,7 @@ const originalQuizData = [
     ],
     answer: "A. At the time the contract is made"
   },
-  {
-    question: "Which of the clauses states that insureds are totally disabled when they CANNOT perform the major duties of their regular occupation?",
-    options: [
-      "A. Own occupation clause",
-      "B. Forbidden work clause",
-      "C. Regular occupation clause",
-      "D. Any occupation clause"
-    ],
-    answer: "A. Own occupation clause"
-  },
-  {
+   {
     question: "Which of the following is a characteristic of conversion from group to permanent life insurance?",
     options: [
       "A. Proof of insurability is required",
@@ -2503,16 +2056,6 @@ const originalQuizData = [
   answer: "C. 6 months"
 },
 {
-  question: "When marketing to groups for health insurance, who should be issued a certificate as proof of coverage?",
-  options: [
-    "A. Sponsor",
-    "B. Employee",
-    "C. Employer",
-    "D. HMO"
-  ],
-  answer: "B. Employee"
-},
-{
   question: "Which of the following level of care do NOT contribute to the improvement of the insured’s medical condition?",
   options: [
     "A. Acute",
@@ -2591,26 +2134,6 @@ const originalQuizData = [
     "D. The insured"
   ],
   answer: "A. The insurer"
-},
-{
-  question: "Which of the following contract enables the business owner who becomes disabled to transfer the business to new owner and receive payment?",
-  options: [
-    "A. Key-employee disability insurance",
-    "B. Business overhead expenses policy",
-    "C. Disability buy-sell policy",
-    "D. Disability reducing term policy"
-  ],
-  answer: "C. Disability buy-sell policy"
-},
-{
-  question: "According to the Affordable Care Act, essential health benefits do NOT include which of the following categories?",
-  options: [
-    "A. Maternity and newborn care",
-    "B. Routine vision care for adults",
-    "C. Preventive and wellness services",
-    "D. Mental health and substance use disorder"
-  ],
-  answer: "B. Routine vision care for adults"
 },
 {
   question: "Without written consent, a policyowner CANNOT change the beneficiary if he has named",
@@ -2735,16 +2258,6 @@ const originalQuizData = [
   answer: "B. Pay up the policy early by using policy dividends"
 },
 {
-  question: "Which type of insurance policy is characterized by premiums that are fully paid up within a stated period, after which no further premiums are REQUIRED?",
-  options: [
-    "A. Lump sum insurance",
-    "B. Basic installment insurance",
-    "C. Prepaid premium insurance",
-    "D. Limited payment life insurance"
-  ],
-  answer: "D. Limited payment life insurance"
-},
-{
   question: "Medicaid provides which coverage that Medicare does NOT?",
   options: [
     "A. Custodial care",
@@ -2753,26 +2266,6 @@ const originalQuizData = [
     "D. Inpatient hospital services"
   ],
   answer: "A. Custodial care"
-},
-{
-  question: "The Health Insurance Portability and Accountability Act (HIPAA) ensures that qualified individuals who change jobs will have access to group health insurance with their new employer without",
-  options: [
-    "A. Having to satisfy a new preexisting condition period",
-    "B. Having any increase in premium costs",
-    "C. Having to meet a new deductible",
-    "D. Any change in the level of benefits they receive"
-  ],
-  answer: "A. Having to satisfy a new preexisting condition period"
-},
-{
-  question: "An annuity that guarantees a given number of income payments, whether or not the annuitant is alive to receive them, is referred to as",
-  options: [
-    "A. A life annuity certain",
-    "B. An assured life annuity",
-    "C. A guaranteed survivor annuity",
-    "D. An irrevocable endowed annuity"
-  ],
-  answer: "A. A life annuity certain"
 },
 {
   question: "A life insurance policy's double indemnity provision would apply when the policyowner's death occurs due to",
@@ -2865,16 +2358,6 @@ const originalQuizData = [
   answer: "D. Waiver of premium rider"
 },
 {
-  question: "When an accident and health policy requires payment of additional premium to provide coverage for a newborn, how many days after the birth is the first payment due?",
-  options: [
-    "A. 60",
-    "B. 31",
-    "C. 14",
-    "D. 10"
-  ],
-  answer: "B. 31"
-},
-{
   question: "Which of the following provides a death benefit if the spouse of the insured dies?",
   options: [
     "A. Accelerated death benefit rider",
@@ -2893,36 +2376,6 @@ const originalQuizData = [
     "D. Deferred Compensation Insurance"
   ],
   answer: "C. Supplemental Compensation Rider"
-},
-{
-  question: "When underwriting group life insurance, the underwriter",
-  options: [
-    "A. Typically evaluates the group as a whole",
-    "B. Requires every group member to be covered",
-    "C. Evaluates the groups on an individual basis",
-    "D. Requires medical information from each individual"
-  ],
-  answer: "A. Typically evaluates the group as a whole"
-},
-{
-  question: "Some health plans pay benefits on a \"usual, customary, and reasonable\" (UCR) basis while other plans may pay established amounts in accordance with a list of injuries, surgical procedures, or other losses. What is this list known as?",
-  options: [
-    "A. Loss menu",
-    "B. Coverage chart",
-    "C. Benefit-schedule",
-    "D. Listing of benefit amounts"
-  ],
-  answer: "C. Benefit-schedule"
-},
-{
-  question: "An insurance producer’s license is valid for no longer than",
-  options: [
-    "A. 12 months",
-    "B. 18 months",
-    "C. 24 months",
-    "D. 36 months"
-  ],
-  answer: "C. 24 months"
 },
 {
   question: "An insurance contract is a contract of utmost good faith because the insurer relies on the truthfulness of the applicant and the insured relies on the insurer's promise to",
@@ -2994,17 +2447,6 @@ const originalQuizData = [
   ],
   answer: "D. Tax free at the time of the insured's death"
 },
-
-{
-  question: "Which of the following services MUST be provided by a health benefit plan issued on or after January 1, 2014?",
-  options: [
-    "A. Adult eye care services",
-    "B. Long-term care services",
-    "C. Adult dental care services",
-    "D. Preventive health services"
-  ],
-  answer: "D. Preventive health services"
-},
 {
   question: "How many days does a terminated employee have to convert his group life insurance policy to an individual policy?",
   options: [
@@ -3014,46 +2456,6 @@ const originalQuizData = [
     "D. 60"
   ],
   answer: "B. 31"
-},
-{
-  question: "The applicant must face the possibility of losing something of value in the event of the insured's death. This principle is known as",
-  options: [
-    "A. Insurable interest",
-    "B. Adverse selection",
-    "C. Indemnification",
-    "D. Viatical settlement"
-  ],
-  answer: "A. Insurable interest"
-},
-{
-  question: "According to the Affordable Care Act, an insurer may rescind coverage under a health benefit plan when",
-  options: [
-    "A. The insured attempts to add more than 3 additional dependents",
-    "B. The insured makes an intentional misrepresentation of a material fact",
-    "C. An insurer adds benefits to a plan offered on another tier at a comparable price",
-    "D. More than 30% of individuals covered under the plan qualify for additional tax credits"
-  ],
-  answer: "B. The insured makes an intentional misrepresentation of a material fact"
-},
-{
-  question: "The levels of coverage defined in the Affordable Care Act are",
-  options: [
-    "A. HMO, EPO, POS, and PPO",
-    "B. Bronze, Silver, Gold, and Platinum",
-    "C. Individual, Parent-Child, Spousal, and Family",
-    "D. Child Only, Limited Benefit Plan, Catastrophic, and Major Medical"
-  ],
-  answer: "B. Bronze, Silver, Gold, and Platinum"
-},
-{
-  question: "When trying on wedding rings at a jewelry store, a woman left her engagement ring on the countertop only to return later and find it missing. The woman experienced a",
-  options: [
-    "A. Transfer of risk",
-    "B. Hazard",
-    "C. Peril",
-    "D. Loss"
-  ],
-  answer: "B. Hazard"
 },
 {
   question: "When using the needs approach to determine the amount of life insurance needed, it is necessary to determine all of the following EXCEPT",
@@ -3074,16 +2476,6 @@ const originalQuizData = [
     "D. Lump sum"
   ],
   answer: "C. Life income"
-},
-{
-  question: "Individuals who are eligible for Medicare on the first day of the month in which they turn age 65 are automatically enrolled in",
-  options: [
-    "A. Part A",
-    "B. Part B",
-    "C. Part C",
-    "D. Part D"
-  ],
-  answer: "B. Part B"
 },
 {
   question: "Which type of life insurance policy is written under a single contract for both spouses in which it is payable upon the first death?",
@@ -3116,16 +2508,6 @@ const originalQuizData = [
   answer: "D. Skilled nursing, intermediate, and custodial care"
 },
 {
-  question: "When a buyer is considering a long-term care policy, they are encouraged to review carefully all policy",
-  options: [
-    "A. Limitations",
-    "B. Facilities",
-    "C. Carriers",
-    "D. Agents"
-  ],
-  answer: "A. Limitations"
-},
-{
   question: "Prescription drug coverage is usually considered which type of benefit under a group medical policy?",
   options: [
     "A. Mandatory",
@@ -3146,16 +2528,6 @@ const originalQuizData = [
   answer: "C. Variable universal life policy"
 },
 {
-  question: "Which of the following is NOT considered advertising?",
-  options: [
-    "A. A policy illustration.",
-    "B. An AM Best company rating",
-    "C. A direct mailing by an insurer",
-    "D. An agent's oral sales presentation"
-  ],
-  answer: "B. An AM Best company rating"
-},
-{
   question: "A trust may NOT be used in connection with a new life insurance policy when the intent is to",
   options: [
     "A. Name the trust as the policy beneficiary and another party as the policyowner",
@@ -3166,16 +2538,6 @@ const originalQuizData = [
   answer: "B. Conceal that a life settlement provider is financing the purchase of the policy."
 },
 {
-  question: "The purpose of Medicare Supplement Insurance is to address gaps in Medicare coverage, which can include",
-  options: [
-    "A. Medicare in-hospital deductible",
-    "B. Replacing HMO coverage",
-    "C. Covering chiropractic treatment",
-    "D. Treatment provided in a government hospital"
-  ],
-  answer: "A. Medicare in-hospital deductible"
-},
-{
   question: "Which type of group has a constitution and bylaws, is organized and maintained in good faith for purposes other than obtaining insurance, and has insurance for the purpose of covering members and their employees?",
   options: [
     "A. Credit insurance group.",
@@ -3184,56 +2546,6 @@ const originalQuizData = [
     "D. Employee or individual employer group."
   ],
   answer: "C. Association or labor group."
-},
-{
-  question: "Which of the following is a common exclusion from coverages found in accident and health policies?",
-  options: [
-    "A. Emergency room coverages",
-    "B. Coordination of benefits",
-    "C. Self-inflicted injuries",
-    "D. Chiropractic services"
-  ],
-  answer: "C. Self-inflicted injuries"
-},
-{
-  question: "Donna and Mary were racing in shopping carts pushed by fellow employees. Mary's cart ran into another employee, John, while he was stocking the shelves, which caused injuries to both of them. Who is definitely covered under Workers Compensation?",
-  options: [
-    "A. John",
-    "B. Mary",
-    "C. John and Mary",
-    "D. Neither"
-  ],
-  answer: "A. John"
-},
-{
-  question: "Long-term care policies MUST cover which of the following conditions?",
-  options: [
-    "A. Alcoholism or drug addiction",
-    "B. Acts of war while serving in the military",
-    "C. Self-inflicted injuries.",
-    "D. Alzheimer’s disease."
-  ],
-  answer: "D. Alzheimer’s disease."
-},
-{
-  question: "Non-statutory group short-term disability benefits are typically paid",
-  options: [
-    "A. Daily",
-    "B. Weekly",
-    "C. Bi-weekly",
-    "D. Monthly"
-  ],
-  answer: "B. Weekly"
-},
-{
-  question: "According to Health Insurance Portability and Accountability Act(HIPAA), when can a group health policy renewal be denied?",
-  options: [
-    "A. There have been too many claims in the previous year",
-    "B. The size of the group has increased by more than 10%",
-    "C. Participation or contribution rules have been violated",
-    "D. Participation or contribution rules have been changed"
-  ],
-  answer: "C. Participation or contribution rules have been violated"
 },
 {
   question: "To receive proceeds from a death benefit, a minor",
@@ -3288,16 +2600,6 @@ const originalQuizData = [
   answer: "A. Diagnostic imaging"
 },
 {
-  question: "Long-term care policies cover expenses for care when the insured CANNOT perform all of the following activities of daily living EXCEPT",
-  options: [
-    "A. Bathing",
-    "B. Shopping",
-    "C. Toileting",
-    "D. Transferring"
-  ],
-  answer: "B. Shopping"
-},
-{
   question: "An insured individual purchases a disability policy with a waiver of premium rider on January 1. The individual is disabled on June 1. On July 1, he receives proof of permanent and total disability, and submits a claim. He begins receiving benefits on July 15. When are his premiums waived?",
   options: [
     "A. January 1",
@@ -3316,16 +2618,6 @@ const originalQuizData = [
     "D. December 31"
   ],
   answer: "A. March 31"
-},
-{
-  question: "Which of the following describes the cause of a loss?",
-  options: [
-    "A. Risk",
-    "B. Hazard",
-    "C. Peril",
-    "D. Insurance"
-  ],
-  answer: "C. Peril"
 },
 {
   question: "Under a multiple protection policy, the policy that pays on the death of the last person is called",
@@ -3356,16 +2648,6 @@ const originalQuizData = [
     "D. Bi-monthly"
   ],
   answer: "D. Bi-monthly"
-},
-{
-  question: "Group Disability Income Insurance usually involves",
-  options: [
-    "A. Higher premiums than individual disability policies",
-    "B. Providing benefits for nonoccupational illnesses and injuries",
-    "C. A requirement that all employees participate",
-    "D. Workers who are individually uninsurable because of their high-risk occupations"
-  ],
-  answer: "C. A requirement that all employees participate"
 },
 {
   question: "Shari receives monthly income from her life annuity. If Shari dies 36 months after the monthly annuity payments begin, the balance of the annuity fund is",
@@ -3437,10 +2719,6 @@ const originalQuizData = [
   ],
   answer: "B. Injuries received at work"
 },
-
-
-
-
 {
   question: "Which of the following is NOT a requirement to become a resident producer in New York?",
   options: [
@@ -3450,16 +2728,6 @@ const originalQuizData = [
     "D. Be competent and trustworthy"
   ],
   answer: "D. Be competent and trustworthy"
-},
-{
-  question: "Medicare Supplement policy must NOT contain benefits which",
-  options: [
-    "A. Charge additional premiums",
-    "B. Duplicate Medicare benefits",
-    "C. Cover more than Medicare coverage",
-    "D. Are covered by Workers Compensation"
-  ],
-  answer: "B. Duplicate Medicare benefits"
 },
 {
   question: "The policy provision describing the responsibilities of the master policyowner is in",
@@ -3472,46 +2740,6 @@ const originalQuizData = [
   answer: "A. Group health policies"
 },
 {
-  question: "Which of the following allows for a multiple of the face amount to be paid if the insured dies because of an accident?",
-  options: [
-    "A. Accidental death benefit",
-    "B. Accelerated death benefit",
-    "C. Term rider",
-    "D. Cost of living rider"
-  ],
-  answer: "A. Accidental death benefit"
-},
-{
-  question: "Which of the following is NOT an Essential Health Benefit Category under the Affordable Care Act?",
-  options: [
-    "A. Emergency Services",
-    "B. Laboratory Services",
-    "C. Alternative Medicine",
-    "D. Maternity and Newborn Care"
-  ],
-  answer: "C. Alternative Medicine"
-},
-{
-  question: "Someone who sells, solicits, or negotiates insurance contracts for compensation is called",
-  options: [
-    "A. An independent insurance adjuster",
-    "B. An insurance producer",
-    "C. An insurance adviser",
-    "D. A life insurer"
-  ],
-  answer: "B. An insurance producer"
-},
-{
-  question: "In a hospital indemnity plan, an elimination period refers to the number of days",
-  options: [
-    "A. For which the insured can receive benefits for each hospital visit",
-    "B. For which the insured can receive benefits for the term of the plan",
-    "C. An insured must wait before becoming eligible to receive benefits for the term of the plan",
-    "D. An insured must wait before becoming eligible to receive benefits for each hospital stay"
-  ],
-  answer: "C. An insured must wait before becoming eligible to receive benefits for the term of the plan"
-},
-{
   question: "Which of the following types of benefits are provided under MOST long-term care policies?",
   options: [
     "A. Fixed dollar amount for each day of care",
@@ -3520,16 +2748,6 @@ const originalQuizData = [
     "D. All fluctuating dollar amount based on duration and type of care provided"
   ],
   answer: "C. All physician-approved necessary medical expenses"
-},
-{
-  question: "A policyowner suffers an injury that renders him incapable of performing one or more important job duties. Any decrease in income resulting from his injury would make him eligible for benefits under which provision?",
-  options: [
-    "A. Partial disability",
-    "B. Nondisabling injury",
-    "C. Presumptive disability",
-    "D. Flat amount disability"
-  ],
-  answer: "A. Partial disability"
 },
 {
   question: "The type of life insurance generally used to cover key employee indemnification are",
@@ -3580,16 +2798,6 @@ const originalQuizData = [
     "D. 18 months"
   ],
   answer: "C. 12 months"
-},
-{
-  question: "With respect to small group health benefit plan, a carrier may discontinue coverage or may refuse to renew such a plan if the employer",
-  options: [
-    "A. employs fewer than 15 full-time employees.",
-    "B. has filed for bankruptcy in the prior year.",
-    "C. has a supplemental plan with a competing carrier.",
-    "D. fails to pay the premium prior to the end of the grace period."
-  ],
-  answer: "D. fails to pay the premium prior to the end of the grace period."
 },
 {
   question: "The insured, who is 59 years of age, decides to replace a long-term care policy they had for five years with a new policy. Which of the following is true of the insurer?",
@@ -3652,16 +2860,6 @@ const originalQuizData = [
   answer: "B. Cash dividend option"
 },
 {
-  question: "Under the Affordable Care Act, an insurer may place dollar limits on coverage for:",
-  options: [
-    "A. Laboratory service",
-    "B. Mental health services",
-    "C. Maternity and newborn care",
-    "D. Routine adult dental services"
-  ],
-  answer: "C. Maternity and newborn care"
-},
-{
   question: "For at least how many years must an insurance producer keep a copy of written compensation disclosure notice provided to a consumer?",
   options: [
     "A. 1 year",
@@ -3682,26 +2880,6 @@ const originalQuizData = [
   answer: "C. Credit reports"
 },
 {
-  question: "All of the following statements apply to the surrender of an annuity contract EXCEPT:",
-  options: [
-    "A. Surrender charges will reduce the contract payout amount",
-    "B. The right to surrender is available on immediate annuities",
-    "C. Owner has the right to surrender the contract during the accumulation period",
-    "D. Surrender charges diminish over a statute of years and will eventually disappear"
-  ],
-  answer: "A. Surrender charges will reduce the contract payout amount"
-},
-{
-  question: "Insurance that is designed to pay the balance of a loan if the insured dies before the loan has been repaid in full is:",
-  options: [
-    "A. Life settlement",
-    "B. Whole life",
-    "C. Universal life",
-    "D. Credit life"
-  ],
-  answer: "D. Credit life"
-},
-{
   question: "An annuitant dies during the accumulation phase. His or her beneficiary will receive:",
   options: [
     "A. The greater of the accumulated cash value or the total premiums paid",
@@ -3710,26 +2888,6 @@ const originalQuizData = [
     "D. Both the accumulated cash value and the total premiums paid"
   ],
   answer: "A. The greater of the accumulated cash value or the total premiums paid"
-},
-{
-  question: "When managing a health insurance plan for a group, the insured's administrative cost per insured person:",
-  options: [
-    "A. Varies among all group members",
-    "B. Equals the cost of insuring each member individually",
-    "C. Is less than the cost if each member was individually insured",
-    "D. Is more than the cost if each member was individually insured"
-  ],
-  answer: "C. Is less than the cost if each member was individually insured"
-},
-{
-  question: "An annuity product linked to a market-related rate of return is called:",
-  options: [
-    "A. A fixed annuity",
-    "B. An indexed annuity",
-    "C. A deferred annuity",
-    "D. A tax-sheltered annuity"
-  ],
-  answer: "B. An indexed annuity"
 },
 {
   question: "An insured individual who has been diagnosed with osteoporosis needs therapy in her home. Which type of long-term care benefit would be MOST appropriate for her?",
@@ -3762,16 +2920,6 @@ const originalQuizData = [
   answer: "A. Sell insurance"
 },
 {
-  question: "The following statement refers to which type of clause? “We have issued the policy in consideration of the representation in your application and payment of the first-term premium”",
-  options: [
-    "A. A contestability clause",
-    "B. A consideration clause",
-    "C. A concealment clause",
-    "D. A whole contract clause"
-  ],
-  answer: "B. A consideration clause"
-},
-{
   question: "Which statement is NOT a characteristic of a Group Life Insurance Plan?",
   options: [
     "A. Master contract",
@@ -3800,16 +2948,6 @@ const originalQuizData = [
     "D. Cost of Living"
   ],
   answer: "B. Long-Term Care"
-},
-{
-  question: "Dependent children can be covered under an individual's group plan up to what age?",
-  options: [
-    "A. 18",
-    "B. 19",
-    "C. 25",
-    "D. 26"
-  ],
-  answer: "D. 26"
 },
 {
   question: "Which type of annuity guarantees a level benefit payment?",
@@ -3872,16 +3010,6 @@ const originalQuizData = [
   answer: "A. 1 to 50 members"
 },
 {
-  question: "An individual buying disability insurance is concerned that the value of the benefits may decrease over time. Which provision would likely address this concern?",
-  options: [
-    "A. Cost of living benefit",
-    "B. Policy inflation option",
-    "C. Vocational disability benefit",
-    "D. Additional monthly benefit"
-  ],
-  answer: "A. Cost of living benefit"
-},
-{
   question: "Which of the following CORRECTLY identifies the favorable income tax treatment afforded to annuities?",
   options: [
     "A. Annual earnings are partially income tax deductible",
@@ -3902,16 +3030,6 @@ const originalQuizData = [
   answer: "C. The shorter the payment period, the higher the annual premium"
 },
 {
-  question: "Which kind of retirement plan can a 500-employee for-profit corporation establish?",
-  options: [
-    "A. 401(k)",
-    "B. 403(b)",
-    "C. Keogh",
-    "D. Simplified Employee Pension Plan"
-  ],
-  answer: "A. 401(k)"
-},
-{
   question: "The illegal occupation provision ensures that the insurer is liable for any losses incurred while the policy owner was:",
   options: [
     "A. Under the influence of prescription drugs",
@@ -3921,16 +3039,8 @@ const originalQuizData = [
   ],
   answer: "D. Not at work"
 },
-{
-  question: "Which of the following statements BEST describes a single premium cash value policy?",
-  options: [
-    "A. It requires only one payment to make the policy paid up",
-    "B. It provides for only one premium to be paid without evidence of insurability",
-    "C. It waives future premiums if the owner becomes disabled",
-    "D. It requires the policyowner to pay one premium annually"
-  ],
-  answer: "A. It requires only one payment to make the policy paid up"
-},
+
+
 
   // (Other questions remain unchanged...)
 ];
